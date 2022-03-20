@@ -280,3 +280,6 @@ if __name__ == '__main__':
     app.run()
 
 ```
+
+# Итоги
+![](https://user-images.githubusercontent.com/72812832/159159592-bac236bb-a66a-47a1-abe2-e7d924f49ecd.png)

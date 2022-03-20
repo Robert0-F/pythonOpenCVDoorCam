@@ -124,7 +124,9 @@ except Exception as ex:
     print(ex)
 ```
 # Flask 
-###Лучший фреймворк для Python!
+
+Лучший фреймворк для Python!
+
 ![](https://user-images.githubusercontent.com/72812832/159159316-1c3c99b3-5920-47ca-8e45-9ca5e50d4f67.png)
 
 ## Cамой интересная часть проекта Распознование лиц

@@ -3,7 +3,7 @@ from config import db_name, password, host, user
 import pandas as pd
 import os
 import base64
-df = pd.read_excel(r'd.xls', sheet_name='Лист1')
+df = pd.read_excel(r'users.xls', sheet_name='Лист1')
 numberOfStudents = len(df['name'].tolist())
 
 

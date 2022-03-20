@@ -1,21 +1,13 @@
-import time
-import io
 import face_recognition
 import cv2
+from flask import Flask, render_template, Response
 import numpy as np
-import cv2
-from flask import Flask, request, make_response, render_template, Response, render_template_string
-import base64
-import numpy as np
-import urllib
 import pymysql
 from config import db_name, password, host, user
-import pandas as pd
 import os
 import base64
-from googletrans import Translator, constants
-from io import BytesIO
-from PIL import Image, ImageFile
+from googletrans import Translator
+from PIL import ImageFile
 
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
